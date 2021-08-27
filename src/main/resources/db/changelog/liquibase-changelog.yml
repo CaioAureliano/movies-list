@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changes/tables/create-table-users.sql
+  - include:
+      file: db/changelog/changes/tables/create-table-user-list.sql
+  - include:
+      file: db/changelog/changes/tables/create-table-movie-list.sql
